@@ -37,7 +37,23 @@ cmd+space--> type Terminal--> enter
 
 17 ls /Applications <----------------all applications in Mac
 
+18 
 
+
+######################3#####################################
+🧠 Pro Tips for Git
+###########################################################
+
+Always git status to see changes
+
+After editing files, push updates with:
+
+git add .
+git commit -m "Updated files"
+git push
+
+
+Use .gitignore to skip unnecessary files (like .DS_Store or data files)
 
 
 
