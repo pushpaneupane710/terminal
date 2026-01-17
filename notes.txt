@@ -1,0 +1,47 @@
+In this note, I will add the terminal commands that I am learning to communicate with the Operating System.
+
+1 To open terminal in Mac M1.
+cmd+space--> type Terminal--> enter
+
+2 pwd <--------shows where I am
+
+3 ls <--------shows list of all files and folders
+
+  ls -l <------shows permissions, owner, file size, date modified.
+
+4 cd folder_name <---------move into a folder
+
+5 cd .. <----------------go back one step
+
+6 cd ~ <----------------go home anytime
+
+7 mkdir new_foler_name <-------------create a new directory or folder
+
+8 touch file_name.txt <------------------ creating a file inside new_folder_name
+
+9 open file_name.txt <-------------------open a file to edit
+
+10 cat file_name.txt <--------------------see content inside a file
+
+11 rm file_name.txt <--------------------delete a file
+
+12 touch file_name.txt <-----------create a file
+
+13 rm -i file_name.txt  <------------✅ Safe delete (asks for confirmation). type y --> enter. ⭐ Recommended 
+
+14 rmdir folder_name <--------------delete folder
+
+15 rm -r folder_name <-------------delete a folder with files inside it.
+
+16 rm ri folder_name <----------------✅Safe delete folder (asks before deleting).type y --> enter. ⭐ Recommended
+
+17 ls /Applications <----------------all applications in Mac
+
+
+
+
+
+
+
+
+
