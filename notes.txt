@@ -38,6 +38,88 @@ cmd+space--> type Terminal--> enter
 17 ls /Applications <----------------all applications in Mac
 
 18 
+######################3#####################################
+🧠  Git
+###########################################################
+how to upload a folder (with files) from your PC to GitHub using Terminal, the cleanest and proper way for developers:
+
+1️⃣ Install Git (if not already)
+
+Check if Git is installed:----> git --version
+
+If you see a version like git version 2.x.x, you’re ready. .
+
+If not, install via Homebrew:----> brew install git
+
+
+2️⃣ Prepare your GitHub repository:
+
+Go to GitHub and Log in ✅
+
+Click New repository ✅
+
+Give it a name (e.g., my_project)✅
+
+Choose Public or Private✅
+
+Do not initialize with a README (we’ll add it via terminal)
+
+Click Create repository✅
+
+You’ll see instructions like:
+
+	git remote add origin https://github.com/username/my_project.git
+	git branch -M main
+	git push -u origin main
+
+
+3️⃣ Go to your folder in Terminal: 
+
+Let’s say your folder is my_folder on Desktop:
+
+	cd ~/Desktop/my_folder ✅
+
+
+Check files in my_folder: ls
+
+4️⃣ Initialize Git in your folder
+git init✅
+
+5️⃣ Add files to Git
+git add . ✅ (. = add all files in current folder)
+git add script.py (Add only that one file to Git)
+
+
+
+Check what’s added:
+git status✅
+
+
+6️⃣ Commit your files
+git commit -m "Initial commit"✅
+
+git commit -m "Add script.py" -----one file only to commit
+
+
+7️⃣ Link your local repo to GitHub
+
+Copy the URL from your GitHub repo page (HTTPS):
+
+git remote add origin https://github.com/username/my_project.git ✅
+
+
+Check remote:
+
+git remote -v✅
+
+8️⃣ Push your files to GitHub
+git branch -M main   # ensures branch is called main ✅
+git push -u origin main ✅
+
+9️⃣ Verify
+
+Go to your GitHub repository in browser → your files should appear ✅
+
 
 
 ######################3#####################################
@@ -48,9 +130,9 @@ Always git status to see changes
 
 After editing files, push updates with:
 
-git add .
-git commit -m "Updated files"
-git push
+git add . ✅
+git commit -m "Updated files" ✅
+git push ✅
 
 
 Use .gitignore to skip unnecessary files (like .DS_Store or data files)
