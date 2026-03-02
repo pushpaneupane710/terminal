@@ -99,7 +99,21 @@ git status✅
 git commit -m "Initial commit"✅
 
 git commit -m "Add script.py" -----one file only to commit
+Git remote add
 
+****************************************
+*First time thing 
+****************************************
+*Git branch -M main ✅
+*
+*git status✅
+*
+*(It should show below written text:
+
+* On branch main
+*nothing to commit, working tree clean)
+
+******************************************
 
 7️⃣ Link your local repo to GitHub
 
@@ -123,7 +137,7 @@ Go to your GitHub repository in browser → your files should appear ✅
 
 
 ######################3#####################################
-🧠 Pro Tips for Git
+🧠 Pro Tips for Git push
 ###########################################################
 
 Always git status to see changes
@@ -133,11 +147,42 @@ After editing files, push updates with:
 git add . ✅
 git commit -m "Updated files" ✅
 git push ✅
+git push -u origin main ✅
 
 
 Use .gitignore to skip unnecessary files (like .DS_Store or data files)
 
 
+
+
+######################3#####################################
+🧠 Pro Tips for clone(download) on your system
+###########################################################
+
+1. Give me the url of GitHub repository.
+2. code>Https link> copy link > go to terminal> write "git clone" paste url>hit enter
+
+
+
+######################3#####################################
+🧠 Pro Tips for adding files in your system. 
+###########################################################
+
+Suppose, you added file using GitHub UI.
+example: Add file>commit>save on GitHub.com
+
+Now, you want to download this added file into your computer folder. HOW to do?
+(File From online to local system)
+
+Go to repository.
+
+To Pull from origin main:
+--------------------------
+In terminal>git status>git pull origin main 
+Or
+To Pull from branch:
+---------------------
+In terminal>git status>git pull origin branch main 
 
 
 
